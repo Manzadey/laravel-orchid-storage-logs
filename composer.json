@@ -1,0 +1,38 @@
+{
+  "name": "manzadey/laravel-orchid-storage-logs",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Manzadey",
+      "email": "andrey.manzadey@gmail.com",
+      "homepage": "https://manzaday.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "orchid/platform": "^13.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Manzadey\\LaravelOrchidStorageLog\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\": "stubs/app/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Manzadey\\LaravelOrchidStorageLog\\Providers\\FoundationServiceProvider"
+      ]
+    }
+  }
+}
