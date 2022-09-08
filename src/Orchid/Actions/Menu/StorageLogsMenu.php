@@ -12,6 +12,6 @@ class StorageLogsMenu
     {
         return Menu::make(__('Системные логи'))
             ->icon('settings')
-            ->route('platform.storage-logs.list');
+            ->route('platform.storage-logs');
     }
 }
