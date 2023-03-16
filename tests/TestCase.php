@@ -19,7 +19,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     {
         config()->set('filesystems.disks.logs', [
             'driver' => 'local',
-            'root'   => __DIR__ . '\\logs',
+            'root'   => __DIR__ . DIRECTORY_SEPARATOR . 'logs',
         ]);
     }
 }
