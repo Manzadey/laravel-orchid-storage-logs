@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/manzadey/laravel-orchid-storage-logs.svg?style=flat-square)](https://packagist.org/packages/manzadey/laravel-orchid-storage-logs)
 [![Total Downloads](https://img.shields.io/packagist/dt/manzadey/laravel-orchid-storage-logs.svg?style=flat-square)](https://packagist.org/packages/manzadey/laravel-orchid-storage-logs)
+[![PHPUnit Tests](https://github.com/Manzadey/laravel-orchid-storage-logs/actions/workflows/ci.yml/badge.svg)](https://github.com/Manzadey/laravel-orchid-storage-logs/actions/workflows/ci.yml)
 
 This package allows you to view logs directly in the Laravel Orchid admin panel.
 
