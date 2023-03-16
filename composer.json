@@ -1,0 +1,49 @@
+{
+    "name": "manzadey/laravel-orchid-storage-logs",
+    "description": "Package for Laravel Admin Panel Orchid. Allows you to view laravel logs in the Orchid admin panel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Manzadey",
+            "email": "andrey.manzadey@gmail.com",
+            "homepage": "https://github.com/Manzadey",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "ext-zip": "*",
+        "orchid/platform": "^13.9"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^9.6",
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Manzadey\\LaravelOrchidStorageLogs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Manzadey\\LaravelOrchidStorageLogs\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Manzadey\\LaravelOrchidStorageLogs\\FoundationServiceProvider"
+            ]
+        }
+    }
+}

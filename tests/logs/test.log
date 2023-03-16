@@ -1,0 +1,8 @@
+[2023-03-14 20:23:16] local.EMERGENCY: test message EMERGENCY
+[2023-03-14 20:23:16] local.ALERT: test message ALERT
+[2023-03-14 20:23:16] local.CRITICAL: test message CRITICAL
+[2023-03-14 20:23:16] local.ERROR: test message ERROR
+[2023-03-14 20:23:16] local.WARNING: test message WARNING
+[2023-03-14 20:23:16] local.NOTICE: test message NOTICE
+[2023-03-14 20:23:16] local.INFO: test message INFO
+[2023-03-14 20:23:16] local.DEBUG: test message DEBUG
