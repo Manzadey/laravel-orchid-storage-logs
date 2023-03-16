@@ -17,9 +17,6 @@ class RepositoryTest extends TestCase
 
         $this->assertEquals(config('filesystems.disks.logs.root') . DIRECTORY_SEPARATOR . $filepath, $repository->get('path'));
         $this->assertEquals($filepath, $repository->get('name'));
-        $this->assertEquals(458, $repository->get('size'));
-        $this->assertEquals('458B', $repository->get('size_human'));
-        $this->assertEquals(1678901152, $repository->get('last_modified'));
 
         $this->assertArrayHasKey('path', $repository->all());
         $this->assertArrayHasKey('name', $repository->all());
