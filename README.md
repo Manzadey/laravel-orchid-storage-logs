@@ -78,7 +78,7 @@ class PlatformProvider extends OrchidServiceProvider
             
             StorageLogsMenu::make()
                 ->route('platform.storage-logs.list'),
-]       ;
+        ];
     }
 }
 ```
