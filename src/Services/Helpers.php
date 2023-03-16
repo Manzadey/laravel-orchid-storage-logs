@@ -30,7 +30,7 @@ class Helpers
 
     public static function filenameEncode(string $name) : string
     {
-        return str_replace(['.log', DIRECTORY_SEPARATOR], ['', AbstractStorageLogScreen::SEPARATOR_FOR_FILES], $name);
+        return str_replace(['.log', '/'], ['', AbstractStorageLogScreen::SEPARATOR_FOR_FILES], $name);
     }
 
     public static function filenameDecode(string $filename) : string
