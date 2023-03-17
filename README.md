@@ -9,8 +9,9 @@ This package allows you to view logs directly in the Laravel Orchid admin panel.
 ### List of logs
 ![Screenshot List Logs](https://user-images.githubusercontent.com/34869211/225702577-92d0589f-6d01-48b5-8916-16d69918a331.png)
 
+
 ### Show Log
-![Screenshot Show Log](https://user-images.githubusercontent.com/34869211/225709127-47744ad5-9767-4338-be19-e9f400c250f2.png)
+![Screenshot Show Log](https://user-images.githubusercontent.com/34869211/225880752-cee63ce3-d091-493d-b02c-8095caff3871.png)
 ## Features:
  - Download logs
  - Views logs
