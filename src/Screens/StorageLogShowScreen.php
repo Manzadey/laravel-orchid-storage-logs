@@ -135,7 +135,7 @@ class StorageLogShowScreen extends AbstractStorageLogScreen
             ])->title(__('More')),
 
             Layout::tabs([
-                __('List') => [
+                __('List of messages') => [
                     Layout::table('messages', [
                         TD::make('index', '#')
                             ->sort()
