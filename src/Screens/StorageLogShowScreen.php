@@ -99,7 +99,7 @@ class StorageLogShowScreen extends AbstractStorageLogScreen
 
     public function sortDefault(Collection $collection) : Collection
     {
-        return $collection->sortByDesc('date');
+        return $collection->sortByDesc('index');
     }
 
     public function commandBar() : iterable
